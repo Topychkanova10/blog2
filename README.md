@@ -27,6 +27,11 @@
 
 ### INSTALLED_APPS
 
+1. Добавили прилжение в ``INSTALLED_APPS`` в файле ``settings.py``:
+2. Добавили функцию index в файле ``views.py`` в приложении ``python_blog``:
+3. Импортировали функцию index в файле ``urls.py`` в приложении ``python_blog``:
+4. Добавили путь к приложению в файле ``urls.py`` в проекте ``blog``:
+
 INSTALLED_APPS - это списокк всех приложений, установленных в Django. При создании нового приложения, его необходимо добавить в ``INSTALLED_APPS`` в файле ``settings.py``:
 
 ```python
@@ -40,3 +45,4 @@ INSTALLED_APPS = [
     'python_blog',
 ]
 ```
+**lesson_49: Создание первого представления с HTTP-ответом**
